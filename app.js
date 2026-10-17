@@ -1,6 +1,6 @@
 (() => {
   'use strict';
-  const CFG = window.APP_CONFIG || { APP_NAME: 'Editor Gloria Studio', API_URL: '', DEMO_MODE: true, REFRESH_INTERVAL_MS: 20000 };
+  const CFG = window.APP_CONFIG || { APP_NAME: 'Editor Gloria Studio', API_URL: '', DEMO_MODE: false, REFRESH_INTERVAL_MS: 20000 };
   const APP_NAME = CFG.APP_NAME || 'Editor Gloria Studio';
   const STORES = [
     {id:'MAIN_VISI_TT',name:'Visi TT',group:'Toko Utama'},
